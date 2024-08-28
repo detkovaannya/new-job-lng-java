@@ -10,7 +10,7 @@ import java.util.zip.GZIPInputStream;
 public class Main {
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.out.println("Usage: java -jar target\\GroupingTool.jar <output-file>.txt");
+            System.out.println("Usage: java -jar -Xmx1G target\\GroupingTool-1.0.jar <output-file>.txt");
             return;
         }
 
